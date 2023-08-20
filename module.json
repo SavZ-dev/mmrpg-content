@@ -1,0 +1,71 @@
+{
+  "id": "mmrpg-content",
+  "title": "MMRPG Content",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "custom-system-builder",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "Content for Marvel Multiverse RPG. All content from this pack is easily available for free at Roll20 and Demiplame. No content from the book or other paid forms is included in this pack.",
+  "authors": [
+    {
+      "name": "SaviroZenu",
+      "discord": "Sav#6629"
+    }
+  ],
+  "packs": [
+    {
+      "name": "heroes",
+      "label": "Heroes",
+      "path": "packs/heroes",
+      "type": "Actor",
+      "system": "custom-system-builder",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "powers",
+      "label": "Powers",
+      "path": "packs/powers",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder"
+    },
+    {
+      "name": "traits",
+      "label": "Traits",
+      "path": "packs/traits",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder"
+    },
+    {
+      "name": "tags",
+      "label": "Tags",
+      "path": "packs/tags",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder"
+    }
+  ]
+}
